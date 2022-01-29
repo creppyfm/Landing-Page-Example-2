@@ -1,1 +1,134 @@
 /*This is where the styling will go!*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    display: block;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    
+    padding: 8px 40px 40px 40px;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    background-color: #1F2937;
+}
+
+.nav {
+    display: flex;
+    flex-shrink: 0;
+}
+
+li {
+    margin: 16px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb
+}
+
+
+.head-img {
+    height: auto;
+    width: 150px;
+    display: flex;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 1;
+    padding: 40px;
+    background-color: #1F2937;
+}
+
+.hero-img {
+    max-height: auto;
+    max-width: 350px;
+    margin-left: 100px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 1 auto;
+    max-width: 400px;
+    justify-content: center;
+}
+
+.hero-header {
+    font-size: 32px;
+    font-weight: bold;
+    color: #f9faf8    
+}
+
+.hero-text {
+    text-align: left;
+    padding: 16px 16px 16px 0;
+    color: #e5e7eb
+}
+
+.hero-button {
+    padding: 8px;
+    margin-top: 8px;
+    background-color: #3882f6;
+    color: #e5e7eb
+
+}
+
+.rand-info {
+    display: flex;
+    margin: 100px;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rand-img {
+    height: 100px;
+    width: 100px;
+}
+
+.quote {
+    display: flex;
+    margin: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta {
+    display: flex;
+    margin: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 32px;
+
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta-right {
+    display: flex;
+
+}
+
+.footer {
+    display: flex;
+    padding: 0 16px;
+}
